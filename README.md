@@ -103,4 +103,5 @@ Transfer/sec:      3.03MB
 | **Total Requests**       | 54 050        |
 | **Throughput (Req/Sec)** | 2700.15 req/s |
 | **Transfer Rate**        | 3.03 MB/s     |
+### Note ⚠️
 _Pay attention for **Throughput**, even average latency for `/request` is lower, you can see that it took much less requests than `/greeting`_
