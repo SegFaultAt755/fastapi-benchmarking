@@ -22,7 +22,7 @@ To run this project locally and prepare it for load testing:
 
 **1. Clone and navigate to the project:**
 ```bash
-git clone <url>
+git clone https://github.com/SegFaultAt755/fastapi-benchmarking.git
 cd fastapi-benchmarking
 ```
 
