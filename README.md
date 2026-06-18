@@ -17,7 +17,7 @@ This service exposes two distinct endpoints designed to test different operation
 * **Testing Variants:** This endpoint is designed to be load-tested state to measure how FastAPI's async event loop handles database latency
 ---
 
-## 🛠️ Settings & Development
+## 🛠️ Setting & Development
 To run this project locally and prepare it for load testing:
 
 **1. Clone and navigate to the project:**
