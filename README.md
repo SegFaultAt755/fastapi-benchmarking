@@ -17,7 +17,7 @@ This service exposes two distinct endpoints designed to test different operation
 * **Testing Variants:** This endpoint is designed to be load-tested state to measure how FastAPI's async event loop handles database latency
 ---
 
-## 🛠️ Setup & Local Development
+## 🛠️ Settings & Development
 To run this project locally and prepare it for load testing:
 
 **1. Clone and navigate to the project:**
@@ -34,10 +34,10 @@ pip install -r requirements.txt
 ```
 
 **3. Run the application:**
-*Note: For production-grade benchmarking, it is highly recommended to run Uvicorn with multiple workers inside Dockerfile.*
 ```bash
 docker compose up --build
 ```
+*Note: For production-grade benchmarking, it is highly recommended to run Uvicorn with multiple workers inside Dockerfile.*
 
 ---
 
