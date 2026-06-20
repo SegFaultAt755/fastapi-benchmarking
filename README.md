@@ -7,7 +7,7 @@ The primary goal of this project is to establish baseline performance metrics fo
 ### Requirements
 
 - **Python** 3.13+
-- **Docker** & Docker Compose
+- **Docker** & **Docker Compose**
 - **wrk** (for load testing)
 
 ## 🗺️ API Endpoints
@@ -175,5 +175,5 @@ Transfer/sec:      3.03MB
 |**Total Requests**|54,050|
 |**Throughput (Req/Sec)**|2,700.15 req/s|
 |**Transfer Rate**|3.03 MB/s|
-
+                                
 > ⚠️ **Note:** Pay close attention to **Throughput**. Even though the average latency for `/request` is lower, it processed significantly fewer total requests than the `/greeting` endpoint.
